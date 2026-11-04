@@ -1,3 +1,4 @@
+<img width="1160" height="679" alt="Screenshot 2026-11-03 at 10 03 30 PM" src="https://github.com/user-attachments/assets/4ff04b34-7253-44f9-93d1-05f073ef11e4" />
 # IT Support Operations & Ticket Lifecycle Lab (Spiceworks Cloud)
 
 ## Project Overview
@@ -23,6 +24,8 @@ Instead of basic troubleshooting, the tickets logged here directly audit the inf
 ### Scenario 3: Endpoint Security & Malware Mitigation Block
 - **The Issue:** An executive assistant reported a system-level policy block when attempting to launch a vendor billing script attachment (`Invoice_Archive.vbs`) received via email.
 - **The Resolution:** Identified the attachment as a high-risk security threat. Documented that the execution loop was successfully caught and dropped by our active Group Policy baseline restricting Windows Script Host (`wscript.exe`) endpoints to block email-borne ransomware.
+<img width="1160" height="679" alt="Screenshot 2026-11-03 at 10 08 45 PM" src="https://github.com/user-attachments/assets/9580277e-cb35-41c2-94bc-3a25b47094b2" />
+<img width="1160" height="679" alt="Screenshot 2026-11-03 at 10 03 30 PM" src="https://github.com/user-attachments/assets/f5f6875d-f3d9-4ba8-9bab-a9ef3276c7e4" />
 
 ---
 
