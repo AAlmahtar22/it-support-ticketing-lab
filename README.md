@@ -1,4 +1,3 @@
-<img width="1160" height="679" alt="Screenshot 2026-11-03 at 10 03 30 PM" src="https://github.com/user-attachments/assets/4ff04b34-7253-44f9-93d1-05f073ef11e4" />
 # IT Support Operations & Ticket Lifecycle Lab (Spiceworks Cloud)
 
 ## Project Overview
