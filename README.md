@@ -14,11 +14,11 @@ Instead of basic troubleshooting, the tickets logged here directly audit the inf
 
 ### Scenario 1: Identity & Access Management (AD) Escalation
 - **The Issue:** A Tier 1 administrator account was blocked when attempting to log into a high-security Tier 0 Domain Controller terminal.
-- **The Resolution:** Verified system event logs. Confirmed the block was expected operational behavior enforced by our Tiered Identity Isolation GPO model designed to stop lateral credential movement. Documented professional workarounds via Remote Server Administration Tools (RSAT).
+- **The Resolution:** Verified the system event logs. Confirmed the block was expected behavior under the tiered admin account structure from my Active Directory lab, which keeps Tier 1 (server) admin accounts separate from Tier 0 (domain) systems to limit how far a compromised account can reach. Documented the approved way to manage the domain controller remotely using Remote Server Administration Tools (RSAT).
 
 ### Scenario 2: Network & Subnet Connectivity Boundary
 - **The Issue:** An HR end-user reported being unable to connect or print to an asset physically located inside the Finance department office network.
-- **The Resolution:** Traced the connection timeout to deliberate firewall rules. Confirmed network traffic isolation across distinct department subnets (HR: VLAN 10, Finance: VLAN 20) configured on a Cisco Catalyst 2960 switch to limit broadcast domains.
+- **The Resolution:** Traced the connection timeout to the VLAN separation between departments. Confirmed network traffic isolation across distinct department subnets (HR: VLAN 10, Finance: VLAN 20) configured on a Cisco Catalyst 2960 switch to limit broadcast domains.
 
 ### Scenario 3: Endpoint Security & Malware Mitigation Block
 - **The Issue:** An executive assistant reported a system-level policy block when attempting to launch a vendor billing script attachment (`Invoice_Archive.vbs`) received via email.
