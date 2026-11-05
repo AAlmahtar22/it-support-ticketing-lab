@@ -29,7 +29,7 @@ Instead of basic troubleshooting, the tickets logged here directly audit the inf
 ---
 
 ## Technical Skills Applied
-- IT Service Management (ITSM) / ITIL Frameworks
+- IT Service Management (ITSM)
 - Ticket Lifecycle Triage & Prioritization Matrices
 - Technical Help Desk Documentation (Internal Notes)
 - Multi-User Escalation Workflows
