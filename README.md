@@ -34,7 +34,8 @@ Instead of generic troubleshooting, the tickets logged here directly audit the a
 <img width="1160" height="679" alt="Spiceworks Internal Ticket Audit Note" src="https://github.com/user-attachments/assets/9580277e-cb35-41c2-94bc-3a25b47094b2" />
 
 ### Figure 2: Closed Ticket Queue Dashboard View
-<img width="1470" height="956" alt="Screenshot 2026-11-05 at 11 58 44 PM" src="https://github.com/user-attachments/assets/7081895c-2967-453a-93e2-b8babb3f99fd" />
+<img width="1470" height="772" alt="Screenshot 2026-11-06 at 1 21 48 AM" src="https://github.com/user-attachments/assets/4eb3b2e1-2acf-4ee2-a4f6-142c0c8803d0" />
+
 
 
 ---
