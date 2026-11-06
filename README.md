@@ -3,12 +3,12 @@
 ## Project Overview
 This project simulates real-world IT Support Desk operations within a sandboxed enterprise corporate environment (**CyberCorp**). By configuring a cloud-hosted ITSM platform, this lab demonstrates foundational help desk skills: ticket triage, incident categorization, user communication, and operational documentation. 
 
-Instead of generic troubleshooting, the tickets logged here directly audit the active infrastructure, network parameters, and security policies configured in my other engineering environments.
+The tickets are based on the environments I built in my other labs: Active Directory, VLAN segmentation, and Group Policy.
 
 ## Core Configurations
-- **Custom Service Desk Architecture:** Implemented structured ticket routing categories to bucket incoming issues under Identity Management (AD), Network Connectivity, and Endpoint Hardening (GPO).
-- **Multi-User Simulation:** Simulated tickets logged by distinct non-technical cross-departmental users utilizing Spiceworks backend email parsing overrides (`#created by`).
-- **Knowledge Management:** Documented detailed internal engineering logs within closed ticket timelines to establish historical auditing records and streamline cross-team knowledge transfers.
+-**Service Desk Setup:** Set up ticket categories for Identity & Access Management (AD/Azure), Network & Connectivity, Endpoint Hardening (GPO), and Hardware & Provisioning, and assigned a priority to each ticket.
+Multi-User Simulation: Simulated tickets from different users across departments using Spiceworks’ #created by tag.
+Documentation: Wrote an internal note on each ticket recording the cause, troubleshooting steps, and resolution.
 
 ## Documented Support Scenarios
 
