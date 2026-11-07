@@ -27,7 +27,7 @@ The tickets are based on the environments I built in my other labs: Active Direc
 - **The Issue:** An executive assistant reported a system-level policy block when attempting to launch a vendor billing script attachment (`Invoice_Archive.vbs`) received via email.
 - **The Resolution:** Identified the attachment as a risky file type. Confirmed the block was expected: my Group Policy baseline disables Windows Script Host, which stops email-borne script attachments from running. Deleted the attachment and advised the user on safe email attachment practices.
 
-- ### Ticket #5: Internal Note
+### Ticket #5: Internal Note
 <img width="1160" height="679" alt="Spiceworks Internal Ticket Audit Note" src="https://github.com/user-attachments/assets/9580277e-cb35-41c2-94bc-3a25b47094b2" />
 
 
