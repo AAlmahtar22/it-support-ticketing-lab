@@ -33,7 +33,7 @@ The tickets are based on the environments I built in my other labs: Active Direc
 ### Scenario 4: New-Hire Onboarding Request (Ticket #7)
 - **The Issue:** HR requested accounts for 5 incoming employees ahead of orientation.
 - **The Resolution:** Ran the account-creation script from my Active Directory lab (02_Create-CorporateStructure.ps1), which created the 5 accounts in the Corporate_Users OU of the CyberCorp.local domain, each with a temporary password and a forced password change at first logon.
-#### Ticket #7: Internal Note
+#### Ticket #7: Internal Note and Public Comment
 <img width="1151" height="803" alt="Screenshot 2026-11-06 at 7 18 07 PM" src="https://github.com/user-attachments/assets/bd4726f7-1517-4ef4-ac5d-e44a3afbd733" />
 
 
