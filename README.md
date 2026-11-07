@@ -26,15 +26,14 @@ The tickets are based on the environments I built in my other labs: Active Direc
 ### Scenario 3: Endpoint Security & Malware Mitigation Block (Ticket #5)
 - **The Issue:** An executive assistant reported a system-level policy block when attempting to launch a vendor billing script attachment (`Invoice_Archive.vbs`) received via email.
 - **The Resolution:** Identified the attachment as a risky file type. Confirmed the block was expected: my Group Policy baseline disables Windows Script Host, which stops email-borne script attachments from running. Deleted the attachment and advised the user on safe email attachment practices.
-
-### Ticket #5: Internal Note
+#### Ticket #5: Internal Note
 <img width="1160" height="679" alt="Spiceworks Internal Ticket Audit Note" src="https://github.com/user-attachments/assets/9580277e-cb35-41c2-94bc-3a25b47094b2" />
 
 
 ### Scenario 4: New-Hire Onboarding Request (Ticket #7)
 - **The Issue:** HR requested accounts for 5 incoming employees ahead of orientation.
 - **The Resolution:** Ran the account-creation script from my Active Directory lab (02_Create-CorporateStructure.ps1), which created the 5 accounts in the Corporate_Users OU of the CyberCorp.local domain, each with a temporary password and a forced password change at first logon.
-
+#### Ticket #7: Internal Note
 <img width="1151" height="803" alt="Screenshot 2026-11-06 at 7 18 07 PM" src="https://github.com/user-attachments/assets/bd4726f7-1517-4ef4-ac5d-e44a3afbd733" />
 
 
